@@ -77,7 +77,7 @@ Provided you have GCC or clang installed, just run `make.sh` in the repo's root 
 
 (C) 2026 vihmu
 
-This software is licensed under the [Apache 2.0](./LICENSE).
+This software is licensed under the [Apache 2.0](./LICENSE) license.
 
 ## References
 
