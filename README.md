@@ -5,11 +5,13 @@ in C (C99).
 
 ![Screenshot](./etc/screenshot.png)
 
-  _`rysa` "graphical" interface_
+_`rysa` "graphical" interface_
 
 ![SVG](./etc/demo.svg)
 
 _exported SVG image_
+
+Also check out [milosc](https://github.com/vihmu/milosc)!.
 
 # Usage
 
@@ -62,7 +64,7 @@ Movement is done with the arrow keys.
 | --- | ---                              |
 | z   | draw a pixel                     |
 | x   | delete a pixel                   |
-| c   | choose a color (0 through 9)     |
+| c   | choose a color                   |
 | f   | fill background with color       |
 | t   | trace a line between two coords. |
 | s   | save to file                     |
