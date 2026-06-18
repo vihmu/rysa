@@ -58,7 +58,7 @@ keyboard:
 
 ## Controls
 
-Movement is done with the arrow keys.
+Movement is done with the arrow keys or Vim keys (HJKL).
 
 | key | command                          |
 | --- | ---                              |
