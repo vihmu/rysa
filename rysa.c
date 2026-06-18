@@ -19,6 +19,10 @@
 #define K_DOWN   'B'
 #define K_LEFT   'D'
 #define K_RIGHT  'C'
+#define K_VUP    'k'
+#define K_VDOWN  'j'
+#define K_VLEFT  'h'
+#define K_VRIGHT 'l'
 #define K_DRAW   'z'
 #define K_DEL    'x'
 #define K_FILL   'f'
@@ -497,19 +501,23 @@ int main(int argc, char **argv)
             break;
         /* Movement keys */
         case K_UP:
+        case K_VUP:
             /* Avoid redrawing entire canvas by only redrawing previous block */
             draw_cursor(crs, canvas.c[crs.y][crs.x], "  ");
             crs.y = crs.y > 0 ? (crs.y - 1) : canvas.h-1;
             break;
         case K_DOWN:
+        case K_VDOWN:
             draw_cursor(crs, canvas.c[crs.y][crs.x], "  ");
             crs.y = crs.y < canvas.h-1 ? (crs.y + 1) : 0;
             break;
         case K_LEFT:
+        case K_VLEFT:
             draw_cursor(crs, canvas.c[crs.y][crs.x], "  ");
             crs.x = crs.x > 0 ? (crs.x - 1) : canvas.w-1;
             break;
         case K_RIGHT:
+        case K_VRIGHT:
             draw_cursor(crs, canvas.c[crs.y][crs.x], "  ");
             crs.x = crs.x < canvas.w-1 ? (crs.x + 1) : 0;
             break;
