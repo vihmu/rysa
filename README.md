@@ -73,7 +73,7 @@ Movement is done with the arrow keys or Vim keys (HJKL).
 
 # Compiling
 
-Provided you have GCC or clang installed, just run `make.sh` in the repo's root directory.
+Provided you have GCC or clang installed, just run `compile.sh` in the repo's root directory.
 
 ## License
 
